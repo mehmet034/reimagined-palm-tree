@@ -1,6 +1,11 @@
 import { BookOpen } from 'lucide-react';
+import { useSeoMeta } from '../hooks/useSeoMeta';
 
 const History = () => {
+  useSeoMeta({
+    title: 'Tarihçe',
+    description: 'Mahmatlı Köyü\'nün tarihi, kuruluşu, geçmiş dönemleri ve bugüne kadar olan gelişimi. Köy büyüklerinin anıları ve sözlü tarih.'
+  });
   return (
     <section id="tarihce" className="py-16 sm:py-20 bg-stone-50">
       <div className="max-w-[1000px] mx-auto px-4 sm:px-6">

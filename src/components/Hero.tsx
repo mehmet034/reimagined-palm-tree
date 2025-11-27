@@ -1,6 +1,11 @@
 import { Mountain, ChevronDown } from 'lucide-react';
+import { useSeoMeta } from '../hooks/useSeoMeta';
 
 const Hero = () => {
+  useSeoMeta({
+    title: 'Anasayfa',
+    description: 'Mahmatlı Köyü - Gümüşhane\'nin Kelkit ilçesine bağlı, dağların arasında yer alan sakin ve huzurlu bir Anadolu köyü. Geleneksel kültür, güçlü komşuluk bağları ve doğal yaşam.'
+  });
   const scrollToSection = (href: string) => {
     const element = document.querySelector(href);
     if (element) {

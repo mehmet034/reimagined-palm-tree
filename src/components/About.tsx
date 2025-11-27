@@ -1,6 +1,11 @@
 import { Home, Users, Leaf } from 'lucide-react';
+import { useSeoMeta } from '../hooks/useSeoMeta';
 
 const About = () => {
+  useSeoMeta({
+    title: 'Köy Hakkında',
+    description: 'Mahmatlı Köyü\'nün tarihi, coğrafi özellikleri, sosyal yapısı ve yaşam tarzı hakkında detaylı bilgiler. Sakin yaşam, güçlü bağlar ve doğal üretim.'
+  });
   const features = [
     {
       icon: Home,

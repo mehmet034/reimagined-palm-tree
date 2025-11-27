@@ -1,7 +1,12 @@
 import { Image, X, ZoomIn, ZoomOut, ChevronLeft, ChevronRight, Loader } from 'lucide-react';
 import { useState, useRef, useEffect } from 'react';
+import { useSeoMeta } from '../hooks/useSeoMeta';
 
 const Gallery = () => {
+  useSeoMeta({
+    title: 'Fotoğraf Galerisi',
+    description: 'Mahmatlı Köyü\'nün manzaraları, yaylalar, kış ve yaz fotoğrafları, düğünler ve bayramlardan seçme kareler.'
+  });
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [zoom, setZoom] = useState(1);
   const [selectedImages, setSelectedImages] = useState<string[]>([]);

@@ -1,7 +1,12 @@
 import { Calendar } from 'lucide-react';
 import { useState, useEffect } from 'react';
+import { useSeoMeta } from '../hooks/useSeoMeta';
 
 const Timeline = () => {
+  useSeoMeta({
+    title: 'Geçmişten Bugüne',
+    description: 'Mahmatlı Köyü\'nün zaman içindeki değişimi. 1960\'lardan günümüze köyün sosyal, ekonomik ve fiziki gelişimi.'
+  });
   const [activeIndex, setActiveIndex] = useState(0);
 
   const timelineData = [

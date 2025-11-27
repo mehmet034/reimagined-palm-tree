@@ -1,6 +1,11 @@
 import { MapPin, Mountain, Users, Utensils } from 'lucide-react';
+import { useSeoMeta } from '../hooks/useSeoMeta';
 
 const InfoCards = () => {
+  useSeoMeta({
+    title: 'Detaylı Bilgiler',
+    description: 'Mahmatlı Köyü\'nin idari statüsü, coğrafi konumu, iklimi, nüfusu ve kültürel özellikleri hakkında kapsamlı bilgi. Yemekleri ve gelenekleri.'
+  });
   const cards = [
     {
       id: 1,

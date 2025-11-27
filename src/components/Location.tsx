@@ -1,6 +1,11 @@
 import { MapPin, Navigation } from 'lucide-react';
+import { useSeoMeta } from '../hooks/useSeoMeta';
 
 const Location = () => {
+  useSeoMeta({
+    title: 'Ulaşım ve Konum',
+    description: 'Mahmatlı Köyü\'nün konumu, ulaşım bilgileri ve harita. Gümüşhane\'nin Kelkit ilçesinde yer alan köyün adreslenme ve yol tarifi.'
+  });
   const locationInfo = [
     { label: 'İl', value: 'Gümüşhane' },
     { label: 'İlçe', value: 'Kelkit' },

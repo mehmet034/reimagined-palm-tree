@@ -3,7 +3,7 @@ import { useSeoMeta } from '../hooks/useSeoMeta';
 
 const About = () => {
   useSeoMeta({
-    title: 'Köy Hakkında',
+    title: 'Mahmatlı Köyü Hakkında - Tarih, Coğrafya ve Yaşam',
     description: 'Mahmatlı Köyü\'nün tarihi, coğrafi özellikleri, sosyal yapısı ve yaşam tarzı hakkında detaylı bilgiler. Sakin yaşam, güçlü bağlar ve doğal üretim.'
   });
   const features = [

@@ -8,7 +8,7 @@ const InfoCards = () => {
       title: 'İdari Statü ve Konum',
       items: [
         { label: 'Bağlı Olduğu İlçe', value: 'Kelkit / Gümüşhane' },
-        { label: 'İdari Durum', value: 'Deredolu Beldesi\'ne bağlı mahalle statüsünde, ancak klasik Türk köyü özelliklerini taşır' },
+        { label: 'İdari Durum', value: 'Mahmatlı\, Kelkit ilçesine bağlı bir mahalle statüsündedir ve yerel yönetim hizmetleri köyün muhtarı Sayın Yakup Gül tarafından yürütülmektedir.' },
         { label: 'Coğrafi Konum', value: 'Kelkit ilçe merkezinin güneyinde, Kelkit-Erzincan karayolu güzergahına yakın' },
         { label: 'Uzaklık', value: 'Kelkit\'e 10-12 km, Gümüşhane\'ye 85-90 km' },
       ],

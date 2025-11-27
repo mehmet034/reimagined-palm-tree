@@ -4,7 +4,7 @@ import { useSeoMeta } from '../hooks/useSeoMeta';
 const Hero = () => {
   useSeoMeta({
     title: 'Gümüşhane Kelkit Mahmatlı Köyü | Web Sitesi',
-    description: 'Gümüşhane Kelkit Mahmatlı Köyü hakkında tarihi bilgiler, eski ve yeni fotoğraflar, yol tarifi ve güncel haberler. Köyümüzün resmi tanıtım platformu.'
+    description: 'Gümüşhane Kelkit Mahmatlı Köyü hakkında tarihi bilgiler, eski ve yeni fotoğraflar, yol tarifi ve güncel haberler. Köyümüzün tanıtım platformu.'
   });
   const scrollToSection = (href: string) => {
     const element = document.querySelector(href);

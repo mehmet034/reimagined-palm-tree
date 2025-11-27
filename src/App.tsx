@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
+import InfoCards from './components/InfoCards';
 import History from './components/History';
 import Timeline from './components/Timeline';
 import Gallery from './components/Gallery';
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <InfoCards />
       <History />
       <Timeline />
       <Gallery />

@@ -3,7 +3,7 @@ import { useSeoMeta } from '../hooks/useSeoMeta';
 
 const Hero = () => {
   useSeoMeta({
-    title: 'Anasayfa',
+    title: 'Gümüşhane Kelkit Mahmatlı Köyü | Web Sitesi',
     description: 'Mahmatlı Köyü - Gümüşhane\'nin Kelkit ilçesine bağlı, dağların arasında yer alan sakin ve huzurlu bir Anadolu köyü. Geleneksel kültür, güçlü komşuluk bağları ve doğal yaşam.'
   });
   const scrollToSection = (href: string) => {

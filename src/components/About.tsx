@@ -4,7 +4,7 @@ import { useSeoMeta } from '../hooks/useSeoMeta';
 const About = () => {
   useSeoMeta({
     title: 'Mahmatlı Köyü Hakkında - Tarih, Coğrafya ve Yaşam',
-    description: 'Mahmatlı Köyü\'nün tarihi, coğrafi özellikleri, sosyal yapısı ve yaşam tarzı hakkında detaylı bilgiler. Sakin yaşam, güçlü bağlar ve doğal üretim.'
+    description: 'Gümüşhane Kelkit Mahmatlı Köyü tarihi, iklimi, nüfusu ve geçim kaynakları. Köyümüzün coğrafi konumu ve kültürel yapısı hakkında detaylı bilgiler.'
   });
   const features = [
     {
